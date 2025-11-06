@@ -12,22 +12,35 @@ body {
 }
 
 /* ====== Common ====== */
+a {
+  text-decoration: none;
+}
+
 .main-content {
   width: 1170px;
+  max-width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
 }
 
-.btn{
-    display: inline-block;
-    min-width: 108px;
-    
+.btn {
+  display: inline-block;
+  min-width: 108px;
+  padding: 0 24px;
+  line-height: 48px;
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
 }
 
 /* ====== Header ====== */
 .header .body {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 52px 0 8px;
 }
 
@@ -36,8 +49,161 @@ body {
 }
 
 .nav a {
+  position: relative;
   color: #2f3a3b;
   font-size: 1.6rem;
+  padding: 8px 20px;
 }
 
-.btn
+.nav li.active a,
+.nav a:hover {
+  color: #2f3a3b;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  display: block;
+  content: "";
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: currentColor;
+}
+
+.header .btn-sign-in {
+  color: #494949;
+  font-size: 1.6rem;
+  margin-right: 24px;
+}
+
+.header .btn-sign-in:hover {
+  color: #1ebfc1;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.header .btn-sign-up:hover {
+  background: #1ebfc1;
+  color: #fff;
+}
+
+/* ====== Hero ====== */
+.hero {
+  padding: 42px;
+}
+
+.hero .body {
+  display: flex;
+}
+
+/* ~~~ Left ~~~ */
+.hero .content-block {
+  width: 45%;
+}
+
+.hero .content-block .title {
+  margin-top: 93px;
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+
+.hero .content-block .heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.hero .content-block .desc {
+  width: 374px;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.78;
+}
+
+.hero .content-block .cta-group {
+  margin-top: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.hero .content-block .hero-cta {
+  margin-right: 50px;
+  color: #fff;
+  background-color: #1ebfc1;
+}
+
+.hero .content-block .watch-video {
+  border: none;
+  background: transparent;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+/* ~~~ Right ~~~ */
+.hero .media-block {
+  width: 55%;
+}
+
+.hero .media-block .img {
+  /* width: 576px; */
+  width: 100%;
+  /* height: 631px; */
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .media-block {
+  position: relative;
+}
+
+.hero .courses {
+  position: absolute;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  height: 75px;
+  padding: 17px 25px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .schedules {
+  position: absolute;
+  left: -145px;
+  bottom: 46px;
+}
+
+.hero .actives {
+  position: absolute;
+  right: 45px;
+  bottom: 41px;
+  background: #fff;
+  padding: 17px 35px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .actives .students {
+  margin-top: 8px;
+}
+
+.hero .actives .stu {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+.hero .actives .stu:first-child {
+  margin-left: 0;
+}
