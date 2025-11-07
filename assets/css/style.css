@@ -447,3 +447,111 @@ a {
   text-align: center;
   font-size: 1.8rem;
 }
+
+/* ====== Feedback ====== */
+.feedback {
+  margin-top: 227px;
+}
+
+.feedback .body .comment {
+  max-width: 419px;
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.feedback .body {
+  position: relative;
+  padding: 37px 0;
+}
+
+.feedback .body .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.feedback .body .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.feedback .body .desc::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 2px;
+  margin-right: 5px;
+  background: #070707;
+}
+
+.feedback .body .feeback-cta {
+  display: flex;
+  margin-top: 52px;
+  margin-left: -30px;
+}
+
+.feedback .body .feeback-cta .cta-btn-group {
+  margin-left: 30px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback .ava-fb-1 {
+  position: absolute;
+  left: 635px;
+  top: 0;
+  width: 92px;
+  height: 92px;
+}
+
+.feedback .ava-fb-2 {
+  position: absolute;
+  left: 1060px;
+  top: 19px;
+  width: 110px;
+  height: 110px;
+}
+
+.feedback .ava-fb-3 {
+  position: absolute;
+  left: 764px;
+  top: 107px;
+  width: 235px;
+  height: 235px;
+}
+
+.feedback .ava-fb-4 {
+  position: absolute;
+  left: 481px;
+  top: 258px;
+  width: 78px;
+  height: 78px;
+}
+
+.feedback .ava-fb-5 {
+  position: absolute;
+  left: 703px;
+  top: 403px;
+  width: 78px;
+  height: 78px;
+}
+
+.feedback .ava-fb-6 {
+  position: absolute;
+  left: 1060px;
+  top: 374px;
+  width: 78px;
+  height: 78px;
+}
