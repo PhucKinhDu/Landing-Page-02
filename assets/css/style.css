@@ -414,3 +414,36 @@ a {
   border-radius: 50%;
   margin: 0 10px;
 }
+
+/* ====== Countdown ====== */
+.countdown {
+  margin-top: 81px;
+  padding: 50px;
+}
+
+.countdown .body {
+  width: 862px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.countdown .countdown-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown .countdown-item .static {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.countdown .countdown-item .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+}
