@@ -146,7 +146,15 @@ a {
 .hero .content-block .hero-cta {
   margin-right: 50px;
   color: #fff;
-  background-color: #1ebfc1;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 14px;
+  background: #2ac9bf;
+  min-width: 186px;
+  line-height: 68px;
+  padding: 0 41px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
 }
 
 .hero .content-block .watch-video {
@@ -554,4 +562,44 @@ a {
   top: 374px;
   width: 78px;
   height: 78px;
+}
+
+/* ====== Admit ====== */
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+
+.admit .body .heading-lv2 {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 410px;
+}
+
+.admit .body .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+.admit .body .btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 14px;
+  background: #2ac9bf;
+  min-width: 186px;
+  line-height: 68px;
+  padding: 0 41px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
 }
