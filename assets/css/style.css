@@ -106,7 +106,7 @@ a {
 
 .hero .body {
   display: flex;
-  padding: 50px 0 79px;
+  /* padding: 50px 0 79px; */
 }
 
 /* ~~~ Left ~~~ */
@@ -227,7 +227,12 @@ a {
 }
 
 /* ====== Features ====== */
+.features {
+  margin-top: 70px;
+}
+
 .features .body-feature {
+  padding: 60px 0;
   max-width: 1024px;
 }
 
@@ -293,6 +298,10 @@ a {
 
 /* ====== Courses ====== */
 .courses {
+  margin-top: 10px;
+}
+
+.courses .body-course {
   padding: 60px 0 184px;
 }
 
@@ -426,7 +435,7 @@ a {
 /* ====== Countdown ====== */
 .countdown {
   margin-top: 81px;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .countdown .body {
@@ -602,4 +611,54 @@ a {
   line-height: 68px;
   padding: 0 41px;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* ====== Footer ====== */
+.footer {
+  background: #ffffff;
+}
+
+.footer .row {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list-item5 a {
+  display: flex;
+}
+
+.footer .list-item5 .social-icon {
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  padding: 80px 0 50px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
 }
